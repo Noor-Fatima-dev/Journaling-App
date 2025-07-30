@@ -1,7 +1,3 @@
-
-
-//AIzaSyCsTWfnc4xBrAskFt3KRhFzfwbcAWnlZsI
-
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import ReactMarkdown from "react-markdown";
