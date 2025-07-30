@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+html , body , #root {
+  
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  overflow-x: hidden;
+  
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Home {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
   }
+  
+.Palete {
+  background-color: linear-gradient(to right, red, blue);
+  display: flex;
+  padding-top: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Right-Tab {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+/*_____________________For Emoji.js_______________________*/
+
+
+.emoji-card:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.25);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.emoji-symbol {
+  font-size: 2.2rem;
 }
+
+.emoji-label {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .Palete {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+}
+
