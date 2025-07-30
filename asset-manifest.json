@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Journaling-App/static/css/main.e0167e57.css",
+    "main.js": "/Journaling-App/static/js/main.3e8fd231.js",
+    "static/js/453.13f00cfa.chunk.js": "/Journaling-App/static/js/453.13f00cfa.chunk.js",
+    "index.html": "/Journaling-App/index.html",
+    "main.e0167e57.css.map": "/Journaling-App/static/css/main.e0167e57.css.map",
+    "main.3e8fd231.js.map": "/Journaling-App/static/js/main.3e8fd231.js.map",
+    "453.13f00cfa.chunk.js.map": "/Journaling-App/static/js/453.13f00cfa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0167e57.css",
+    "static/js/main.3e8fd231.js"
+  ]
+}
